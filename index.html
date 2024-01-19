@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Elevator Web App</title>
+    <script
+      src="https://kit.fontawesome.com/059dce6948.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="buttonElevation">
+        <div class="level-btns">
+          <button onclick="requestUp(0)">
+            <i class="fa-solid fa-arrow-down"></i>
+          </button>
+        </div>
+        <div class="level-btns">
+          <button onclick="requestUp(1)">
+            <i class="fa-solid fa-arrow-up"></i>
+          </button>
+          <button onclick="requestDown(1)">
+            <i class="fa-solid fa-arrow-down"></i>
+          </button>
+        </div>
+        <div class="level-btns">
+          <button onclick="requestDown(2)">
+            <i class="fa-solid fa-arrow-up"></i>
+          </button>
+        </div>
+      </div>
+      <div class="main-elevation">
+        <div id="elevator"></div>
+      </div>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

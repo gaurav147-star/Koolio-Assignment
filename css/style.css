@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+}
+.buttonElevation {
+
+}
+.main-elevation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 900px;
+  position: relative;
+  background-color: rgb(230, 204, 255);
+}
+
+#elevator {
+  width: 290px;
+  height: 290px;
+  background-color: #3498db;
+  position: absolute;
+  transition: top 5s, 10s;
+  bottom: 0;
+}
+
+.level-btns {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
